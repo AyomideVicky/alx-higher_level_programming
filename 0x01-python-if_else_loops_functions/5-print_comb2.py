@@ -1,53 +1,6 @@
 #!/usr/bin/python3
-for i in range(0, 99):
-    print("{:02d}".format(i), end=', ')
-print("{:02d}".format(i + 1))
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
--- INSERT --                                                                                                                                              0,1           All
-
+for i in range(100):
+    if i == 99:
+        print(i)
+        break
+    print("{:02}, ".format(i), end="")
